@@ -1,0 +1,16 @@
+{
+  "appId": "com.garibcatastrofe.electron-course",
+  "files": ["dist-electron", "dist-react"],
+  "extraResources": ["dist-electron/preload.cjs", "src/assets/**"],
+  "icon": "./loguito.png",
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage",
+    "category": "Utility"
+  },
+  "win": {
+    "target": ["portable", "msi"]
+  }
+}
