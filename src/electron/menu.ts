@@ -53,6 +53,11 @@ export function createMenu(mainWindow: BrowserWindow) {
           },
         ],
       },
+      {
+        label: "DevTools",
+        click: () => mainWindow.webContents.openDevTools(),
+        visible: isDev(),
+      }
     ]),
   );
 }
