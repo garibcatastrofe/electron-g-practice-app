@@ -38,7 +38,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="bg-red-500">
       <Header />
       <div className="main">
         <div>
@@ -98,7 +98,7 @@ function SelectOption(props: {
 
 function Header() {
   return (
-    <header>
+    <header className="superHeader">
       <button
         id="close"
         onClick={() => window.electron.sendFrameAction("CLOSE")}

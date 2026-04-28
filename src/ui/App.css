@@ -1,13 +1,13 @@
-header {
+.superHeader {
   width: 100%;
   text-align: left;
   padding: 0.5rem;
   box-sizing: border-box;
-  background-color: #181818;
+  background-color: #3f3f3f;
   -webkit-app-region: drag;
 }
 
-header button {
+.superHeader button {
   all: unset;
   border-radius: 50%;
   width: 1rem;
